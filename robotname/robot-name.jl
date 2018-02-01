@@ -1,6 +1,5 @@
 mutable struct Robot
     name
-    age
     Robot() = new(randomName())
 end
 

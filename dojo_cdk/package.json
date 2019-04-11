@@ -1,0 +1,24 @@
+{
+  "name": "dojo_cdk",
+  "version": "0.1.0",
+  "bin": {
+    "dojo_cdk": "bin/dojo_cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "8.10.40",
+    "typescript": "^3.3.3333",
+    "aws-cdk": "^0.28.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-sns": "^0.28.0",
+    "@aws-cdk/aws-sqs": "^0.28.0",
+    "@aws-cdk/cdk": "^0.28.0",
+    "@aws-cdk/aws-lambda": "^0.28.0",
+    "@aws-cdk/aws-apigateway": "^0.28.0"
+  }
+}

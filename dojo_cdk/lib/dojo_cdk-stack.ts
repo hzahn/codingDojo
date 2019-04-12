@@ -12,7 +12,7 @@ export class DojoCdkStack extends cdk.Stack {
 
       handler: 'index.handler',
 
-      code: lambda.Code.inline("return('Hello World')")
+      code: lambda.Code.inline("def handler(event, context):\n  return({'body': 'Hello World', 'statusCode': 200, 'headers': {}, 'isBase64Encoded': False})")
 
     });
 
